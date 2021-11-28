@@ -1,4 +1,3 @@
-#a,b = map(int, input().split())
 num = int(input())
 if num<10:
     n = 0
@@ -6,7 +5,6 @@ if num<10:
 else:
     m = num % 10
     n = (num-m)/10
-
 s=0
 count = 0
 while s != num :
@@ -15,6 +13,4 @@ while s != num :
     count += 1
     m = s%10
     n = ((s-m)/10)
-
 print(count)
-    
