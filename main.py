@@ -1,6 +1,6 @@
-
-while(1):
-    a,b = map(int, input().split())
-    if(a==0 and b == 0):
-        break
-    print(a+b)
+a,b = map(int, input().split())
+print(a+b)
+print(a-b)
+print(a*b)
+print(round((a-a%b)/b)
+print(a%b)
